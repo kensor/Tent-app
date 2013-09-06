@@ -1,0 +1,200 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+</style>
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css">
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="youtubePlayer.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+<script type="text/xml">
+<!--
+<oa:widgets>
+  <oa:widget wid="2310032" binding="#youtubePlayer" />
+</oa:widgets>
+-->
+</script>
+</head> 
+<body> 
+
+<div id="page" data-role="page" data-theme="b">
+	<div data-role="header" data-theme="b">
+	<center><img src="../Tent/AA County1 copy.jpg" width="320" height="240"></center></div>
+	<div data-role="content" data-theme="a">	
+		<ul data-count-theme="d" data-role="listview" data-split-theme="a" data-theme="b">
+		  <li><a href="#page2">Video Guide</a></li>
+            <li><a href="#page3">Set-up</a></li>
+			<li><a href="#page4">Tear-Down</a></li>
+            <li><a href="#page5">Tent Repair</a></li>
+                    </ul>		
+	</div>
+	<div data-role="footer" data-theme="e">
+		<h4><a href="http://www.emsinnovations.com" title="web site" target="new">EMSInnovations.com</a></h4>
+	</div>
+</div>
+
+<div id="page2" data-role="page" data-theme="b">
+	<div data-role="header" data-theme="e">
+		<h1>Video Guide</h1>
+	</div>
+	<center><iframe id="html5Vid" class="youtube-player" type="text/html" width="310" height="233" src="http://www.youtube.com/embed/u6j-pFbRwNE?" frameborder="0"></iframe></center>
+    <script type="text/javascript">
+// BeginOAWidget_Instance_2310032: #youtubePlayer
+	  
+		if (!true) {
+			var vid = document.getElementById("html5Vid");
+			document.body.removeChild(vid);
+			var params = {};
+			params.autoplay = false;
+			params.loop = false;
+			params.hd = false;
+			params.start = 0;
+			params.border = false;
+			params.color1 = "#B1B1B1";
+			params.color2 = "#D8D8D8";			
+			var vid = createFlashPlayer("5P91PPCw2Bs", "310", "233", params);
+			document.body.appendChild(vid);
+		}
+	
+// EndOAWidget_Instance_2310032
+    </script>
+    <center><iframe id="html5Vid2" class="youtube-player" type="text/html" width="310" height="233" src="http://www.youtube.com/embed/YzPfBTwLNn0?" frameborder="0"></iframe></center>
+    <script type="text/javascript">
+// BeginOAWidget_Instance_2310032: #youtubePlayer
+	  
+		if (!true) {
+			var vid = document.getElementById("html5Vid");
+			document.body.removeChild(vid);
+			var params = {};
+			params.autoplay = false;
+			params.loop = false;
+			params.hd = false;
+			params.start = 0;
+			params.border = false;
+			params.color1 = "#00000";
+			params.color2 = "#D8D8D8";			
+			var vid = createFlashPlayer("5P91PPCw2Bs", "310", "233", params);
+			document.body.appendChild(vid);
+		}
+	
+// EndOAWidget_Instance_2310032
+    </script>
+
+	<div data-role="footer"><a href="#page" data-role="button" data-icon="checkbox-on" data-iconpos="notext">Button</a>
+	</div>
+</div>
+
+<div id="page3" data-role="page" data-theme="c">
+	<div data-role="header" data-theme="e">
+		<h1>Set-Up</h1>
+	</div>
+	<div data-role="content" data-theme="d">
+      <center><b>Preliminary Setup:</b> Inflator/deflators, extension cords and AirGuards are located in totes which are housed in the Support Trailer. Remove  the totes and position near the inflation area.</center><hr>
+      <div id="Accordion1" class="Accordion" tabindex="0">
+        <div class="AccordionPanel">
+          <div class="AccordionPanelTab"><b>STEP 1 - Unload and Pre-Position</b></div>
+          <div class="AccordionPanelContent">Place the tent on a cart, roll the cart to your desired location and remove the tent from the cart. <i>(You may need assistance during this step).</i> <b>Make sure the buckles on the cover are facing up.</b><br>
+          <img src="../Tent/Inflation/Step1.jpg" width="310" height="164"></div>
+        </div>
+        <div class="AccordionPanel">
+          <div class="AccordionPanelTab"><b>STEP 2 - Unpack and Roll Out</b></div>
+          <div class="AccordionPanelContent">Untie the straps on the tent cover and unroll the tent. Position the tent so that the tent is straight and not curved. Begin unfolding the tent. <i>Be careful not to walk or step on any part of the tent while it is not inflated.</i><br>
+          <img src="../Tent/Inflation/Step2.jpg" width="310" height="149"></div>
+        </div>
+         <div class="AccordionPanel">
+          <div class="AccordionPanelTab"><b>STEP 3 - Air Control</b></div>
+          <div class="AccordionPanelContent">Locate and open the <b>“Air Control”</b> flap. Remove the twist cap on the inflation port, exposing the valve by pushing the center of the valve in and rotate counter clockwise a quarter turn. The valve will remain in the open position at this point.<br>
+          <img src="../Tent/Inflation/Step3.jpg" width="310" height="176"></div>
+        </div>
+         <div class="AccordionPanel">
+          <div class="AccordionPanelTab"><b>STEP 4 - Begin Inflation</b></div>
+          <div class="AccordionPanelContent">Extend the hose of the inflator/deflator (looks similar to a canister vacuum cleaner) so that it is straight. Insert the nozzle of the inflator/deflator into the valve opening, hold it in place and begin inflation. <b>ONLY SWITCH ON ONE MOTOR. If both motors are activated the Inflator/Deflator may overheat.</b><br>
+           <img src="../Tent/Inflation/Step4.jpg" width="310" height="141"></div>
+        </div>
+         <div class="AccordionPanel">
+          <div class="AccordionPanelTab"><b>STEP 5 - Assist</b></div>
+          <div class="AccordionPanelContent">Once the tent reaches 75% inflation, it may be necessary to have an assistant or assistants enter the tent and guide the tubes to their correct position. USE CAUTION WHEN INSIDE THE TENT DURING INFLATION, THERE ARE INTERIOR
+ROPES AND TUBES THAT MAY BE TRIPPING HAZARDS.<br>
+           <img src="../Tent/Inflation/Step5.jpg" width="310" height="139"></div>
+        </div>
+         <div class="AccordionPanel">
+          <div class="AccordionPanelTab"><b>STEP 6 - CLOSE THE VALVE</b></div>
+          <div class="AccordionPanelContent">Inflation should continue until air escapes from the Pressure Relief Valve (PRV) or when all tubes are in position and firm. Discontinue inflation, <b>press in and rotate the inflation valve clockwise until the valve ”seats” and sealed.</b> Put the twist cap back on the inflation port<br>
+           <img src="../Tent/Inflation/Step6.jpg" width="310" height="186"></div>
+        </div>
+         <div class="AccordionPanel">
+          <div class="AccordionPanelTab"><b>STEP 7 - AirGuard</b></div>
+          <div class="AccordionPanelContent">Located above the black pressure relief valve and the main inflation valve is the <b>Auxiliary Inflation Valve (AIV)</b>. When all tubes are in position and inflexible, attach the AirGuard by sliding back the outer housing on
+the AIV and inserting the fitting on the end of the AirGuard’s hose. The Air
+Guard will maintain a constant pressure of 4 PSI. This will allow the tent to
+be structurally sound in any atmospheric condition. Plug in the AirGuard once the electrical systems are in place.<br><br>
+           <img src="../Tent/Inflation/Step7.jpg" width="310" height="140"><br><br><b>Note: The AIV can also be used if inflating the tent using an SCBA or
+other air cylinder.</b></div>
+        </div>
+          <div class="AccordionPanel">
+          <div class="AccordionPanelTab"><b>STEP 8 - Stake Down</b></div>
+          <div class="AccordionPanelContent">Note: The Stakedown Kit which comes with each tent should only be used in the event the system is being setup in an area that can have stakes driven into the ground. Otherwise, secure the tents using sand bags, cinder blocks, cars, etc. in place of the stakes<br><br>Remove the hammer and the stakes from the Setup and Repair Kit. Locate the guide ropes on each corner of the tent and pull them taut before
+staking. Hammer the stakes 2/3 into the ground at a 45º angle.<br><br>
+            <img src="../Tent/Inflation/Step8.jpg" width="310" height="102"><br>Attention: Once staked, the guide ropes can be a hazard especially at night. A light stick can be hung from them in the evening to ensure the safety of those
+working around the tents. Fluorescent spray paint may be used to mark the stakes for safety in the daytime.</div>
+        </div>
+      </div>
+      </ul>
+	</div>
+	<div data-role="footer"><a href="#page" data-role="button" data-icon="back" data-iconpos="notext">Button</a>
+	</div>
+</div>
+
+<div data-role="page" id="page4" data-theme="c">
+	<div data-role="header" data-theme="e">
+		<h1>Tear-Down</h1>
+	</div>
+	<div data-role="content" data-theme="d">	
+	<center><i>Move tent carts into position near the tent which will be being disassembled
+for quicker re-load. Locate the inflator/deflator units and cases for final deflation
+and storage of the tent(s).</i>
+<br><br><b>NOTE: Prior to deflation and Demobilizing, ALL SURFACES OF THE TENT (INSIDE AND OUT) MUST BE DRY AND FREE OF DEBRIS BEFORE RE-PACKING.</b><br><br></center><b>(1) </b></center>Unplug and remove the AirGuard from the tent by sliding back the outer housing of the AIV.<br><center>
+<img src="../Tent/Inflation/Deflate1.png" width="310" height="121"></center><br><b>(2)</b> Deflate the tent by opening the twist cap then pushing and turning the fill valve counterclockwise to mostly deflate the tent.<br><center>
+<img src="../Tent/Inflation/Deflate2.png" width="310" height="121"></center><br><b>(3)</b> Turn “ON” one (1) motor of the unit, attach the deflation hose and cap assembly to the opposite end of the inflator/deflator and the hose end to the inflation port on the tent to proceed with deflation.<br><center>
+  <img src="../Tent/Inflation/Deflate3.png" width="310" height="121">
+</center><br><b>(4) </b>Once the tent structure is completely deflated, fold and roll (use the Tent Folding Diagram below) the tent into the cover. Cinch the straps closed and transport tent to storage area.<br><center>
+  <img src="../Tent/Inflation/Deflate4.png" width="310" height="130">
+</center><BR><b>NOTE: It is very important that the tent is completely deflated and then rolled as tightly as possible.</b><br><br><center>
+  <img src="../Tent/Inflation/Folding.png" width="310" height="300">
+</center></div>
+	<div data-role="footer"><a href="#page" data-role="button" data-icon="back" data-iconpos="notext">Button</a>
+
+	</div>
+</div>
+
+<div data-role="page" id="page5" data-theme="d">
+	<div data-role="header" data-theme="e">
+		<h1>Tent Repair</h1>
+	</div>
+	<div data-role="content">	
+<center><i><b>Attention!:</b> Punctures to the air structure can be repaired with duct tape until a more permanent patch can be affixed. EVERY EMS INNOVATIONS TENT COMES WITH ITS OWN REPAIR KIT (located in a bag with the stake-down kit). Additional items needed for repairs include duct tape, scissors or box cutter, 120 grit sand paper, pliers or adjustable wrench.</i></center>
+<hr>
+<img src="../Tent/Inflation/R1.png" width="100" height="99" align="left"><b>(1) </b>Locate the damaged area(s) to be repaired. Determine whether repairs can be made while the tent is inflated. In the picture below the damage was to the floor of the tent so the tent could be repaired while inflated.<br><br>
+<img src="../Tent/Inflation/R2.png" width="100" height="99" align="left"><b>(2)</b> Using scissors, a knife, or Multi-tool cut 2 patches out of the provided material which is a bit larger than the hole(s) to be patched (for flooring).<br><br>
+<img src="../Tent/Inflation/R3.png" width="100" height="99" align="left"><b>(3)</b> Insert one patch into the largest hole and flatten out, this will aid in collecting any glue which may go through the hole(s). Use the sandpaper to rough the surfaces around the
+hole (This aids in adhering the patch to this area). Clean off any excess debris from around the patch area.<br><br>
+<img src="../Tent/Inflation/R4.png" width="100" height="99" align="left"><b>(4) </b>Use the brush to spread a thin coating of glue onto the entire uncoated (not shiny) side of the patch and around the patch area. Glue should be applied as close to the edge of the patch as possible. <b>NOTE:</b> Krazy glue® (supplied by user) can be used to glue the patch as well. <i>Be careful to not lay a brush loaded with glue
+on other surfaces of the tent.</i><br><BR>
+<img src="../Tent/Inflation/R5.png" width="100" height="99" align="left"><b>(5) </b>Press the patch down and hold in place for 3-5 minutes to ensure
+a tight seal, paying special attention to the edges of the patch.</i><br><center>
+</center><BR><b>NOTE:</b> More complicated patches (replacing inflation valves, patching tubes, patching areas larger than the included swatch, etc.) should be left up to an EMS Innovations trained employee. <b>Call 888-236-1267 for assistance.</b><br><br> 
+If the tent is being used to house patients, use duct tape to cover the area temporarily and stop further damage. This also applies to the air structure. More permanent repairs can be made after a critical deployment.<br><br> If you have any difficulty making repairs or need assistance, please call 888-236-1267 for support. An agent will either walk you through the process and provide answers to your questions.</div>
+	<div data-role="footer"><a href="#page" data-role="button" data-icon="back" data-iconpos="notext">Button</a>
+
+	</div>
+</div>
+<script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+</script>
+</body>
+</html>
